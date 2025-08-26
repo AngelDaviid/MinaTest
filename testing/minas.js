@@ -54,7 +54,7 @@ function clickCelda(e) {
     const index = e.target.dataset.index;
     if (minas.includes(Number(index))) {
         e.target.classList.add("mina");
-        mensaje.textContent = 💥 ¡Perdiste! Puntos: ${puntos};
+        mensaje.textContent = `💥 ¡Perdiste! Puntos: ${puntos}`;
         revelarMinas();
         juegoActivo = false;
 
