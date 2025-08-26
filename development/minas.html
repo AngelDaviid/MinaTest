@@ -9,7 +9,22 @@
 <h1>Juego de Minas 🎰</h1>
 <button id="nuevoJuego">Nuevo Juego</button>
 <p id="mensaje"></p>
-<div id="tablero"></div>
+
+<div class="contenedor">
+    <div id="tablero"></div>
+
+    <div id="instrucciones">
+        <h2>📖 Instrucciones</h2>
+        <ul>
+            <li>Hay <b>5 minas escondidas</b> en el tablero.</li>
+            <li>Haz clic en una casilla para descubrirla.</li>
+            <li>Si la casilla es segura ✅, ganas un punto.</li>
+            <li>Si caes en una mina 💣, pierdes la partida.</li>
+            <li>El objetivo es descubrir todas las casillas seguras.</li>
+            <li>Pulsa <b>Nuevo Juego</b> para reiniciar.</li>
+        </ul>
+    </div>
+</div>
 
 <script src="minas.js"></script>
 </body>

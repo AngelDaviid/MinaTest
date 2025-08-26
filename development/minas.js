@@ -22,7 +22,7 @@
         minas = generarMinas();
         puntos = 0;
         juegoActivo = true;
-        mensaje.textContent = "¡Encuentra las casillas seguras!";
+        mensaje.textContent = `¡Encuentra las casillas seguras! Hay ${numMinas} minas escondidas 💣`;
 
         for (let i = 0; i < size * size; i++) {
             const celda = document.createElement("div");
@@ -61,11 +61,12 @@
 
             setTimeout(() => {
                 generarTablero();
-            }, 1500);
+            }, 5000);
 
         } else {
             if (!e.target.classList.contains("revelada")) {
                 e.target.classList.add("revelada");
+                e.target.textContent = "✅"
                 puntos++;
                 mensaje.textContent = `Puntos: ${puntos}`;
 

@@ -1,0 +1,14 @@
+REPORTE DE PRUEBAS - MINAS FILADELFIA
+
+==========================================
+
+Fecha: 25/08/2025
+Probado por: Diana Marin
+
+PROBLEMAS ENCONTRADOS
+1. No hay suficientes instrucciones
+2. No se sabe que significa el color verde
+3. Se reinicia rapido
+
+ESTADO: Listo para producción Si
+
