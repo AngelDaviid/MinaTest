@@ -76,6 +76,6 @@ function revelarMinas() {
     });
 }
 
-btnNuevo.addEventListener("click", generarTablero);
+btnNuevo.addEventListener("click", revelarMinas);
 
 generarTablero();
