@@ -1,0 +1,21 @@
+TESTING CAJA NEGRA - Juego de Minas
+
+Caso 1:
+Entrada: Hacer clic en una celda sin mina
+Salida esperada: La celda se vuelve verde, el puntaje aumenta en +1
+
+Caso 2:
+Entrada: Hacer clic en una celda con mina
+Salida esperada: Mostrar 💥 ¡Perdiste! con puntaje actual, se revelan todas las minas y el tablero se reinicia en 1.5s
+
+Caso 3:
+Entrada: Hacer clic dos veces en la misma celda
+Salida esperada: Solo la primera vez suma punto, la segunda no cambia nada
+
+Caso 4:
+Entrada: Seguir clickeando hasta descubrir todas las celdas seguras
+Salida esperada: Mensaje “¡Ganaste!” con puntaje máximo (20), tablero reinicia en 2s
+
+Caso 5:
+Entrada: Presionar botón “Nuevo Juego”
+Salida esperada: Se genera un tablero nuevo con 5 minas en posiciones diferentes
