@@ -1,0 +1,6 @@
+ENTORNO=producción
+DEBUG=false
+BASE_URL=https://busca-minas-dev.netlify.app/
+MOSTRAR_ERORRES=no
+SEGURIDAD=maxima
+MONITOREO= 8H
