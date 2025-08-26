@@ -44,7 +44,6 @@
                 posiciones.push(r);
             }
         }
-        console.log(posiciones);
         return posiciones;
     }
 

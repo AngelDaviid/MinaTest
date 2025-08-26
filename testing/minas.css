@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.celda {
+    width: 60px;
+    height: 60px;
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.celda.revelada {
+    background: #27ae60;
+}
+
+.celda.mina {
+    background: #e74c3c;
+}
